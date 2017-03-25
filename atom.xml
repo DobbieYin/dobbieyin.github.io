@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yinfxs.com/"/>
+  <link href="http://www.yinfxs.com/"/>
   <updated>2017-03-25T07:12:30.000Z</updated>
-  <id>http://yinfxs.com/</id>
+  <id>http://www.yinfxs.com/</id>
   
   <author>
     <name>Daniel Yin</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yinfxs.com/2017/03/25/hello-world/"/>
-    <id>http://yinfxs.com/2017/03/25/hello-world/</id>
+    <link href="http://www.yinfxs.com/2017/03/25/hello-world/"/>
+    <id>http://www.yinfxs.com/2017/03/25/hello-world/</id>
     <published>2017-03-25T07:12:30.000Z</published>
     <updated>2017-03-25T07:12:30.000Z</updated>
     
