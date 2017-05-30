@@ -2,9 +2,96 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Daniel Yin</title>
+    <title>Daniel Yin | Web developer</title>
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        a, a:visited {
+            text-decoration: none;
+        }
+
+        body {
+            color: #414f57;
+            font-family: "Source Sans Pro", Helvetica, sans-serif;
+            font-size: 14pt;
+            font-weight: 300;
+            line-height: 2;
+            letter-spacing: 0.2em;
+        }
+
+        #content {
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-flow: column;
+            padding: 1rem;
+        }
+
+        #typing {
+            font-size: 2.2rem;
+        }
+
+        .ityped-cursor {
+            font-size: 2.2rem;
+            color: #888;
+            opacity: 1;
+            -webkit-animation: blink 0.3s infinite;
+            -moz-animation: blink 0.3s infinite;
+            animation: blink 0.3s infinite;
+            animation-direction: alternate;
+        }
+
+        #name {
+            font-size: 1.85em;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+        }
+
+        #avatar {
+            width: 150px;
+            display: block;
+            border-radius: 100%;
+            box-shadow: 0 0 0 1.5em #ffffff;
+        }
+
+        #items > a {
+            text-align: center;
+            white-space: nowrap;
+            font-size: 12px;
+            text-transform: uppercase;
+            margin: 0.6em;
+            font-family: system-ui;
+        }
+
+    </style>
 </head>
 <body>
-    <h3>Daniel Yin</h3>
+<div id="content">
+    <img src="https://avatars2.githubusercontent.com/u/6890643?v=3&s=460" id="avatar"/>
+    <h1 id="name">Daniel Yin</h1>
+    <div>
+        <span id="typing"></span>
+    </div>
+    <div id="items">
+        <a href="https://yinfxs.github.io/ibird">ibird</a>
+        <a href="https://zhuanlan.zhihu.com/yinfxs">blog</a>
+        <a href="https://github.com/yinfxs">github</a>
+    </div>
+</div>
+
+
+<script type="application/javascript" src="http://7xlhoa.com1.z0.glb.clouddn.com/ityped.js"></script>
+<script type="application/javascript">
+    ityped.init('#typing', {
+        strings: ['Hello.', 'I am Daniel Yin.', 'Yes, this is my little cat.', 'I am a Web developer.', 'What can I do for you?'],
+        typeSpeed: 105,
+        backDelay: 1000,
+        loop: true
+    });
+</script>
 </body>
 </html>
