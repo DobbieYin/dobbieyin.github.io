@@ -60,6 +60,10 @@
             box-shadow: 0 0 0 1.5em #ffffff;
         }
 
+        #items {
+            text-align: center;
+        }
+
         #items > a {
             text-align: center;
             white-space: nowrap;
@@ -75,13 +79,14 @@
 <div id="content">
     <img src="https://avatars2.githubusercontent.com/u/6890643?v=3&s=460" id="avatar"/>
     <h1 id="name">Daniel Yin</h1>
-    <div>
+    <div style="text-align: center">
         <span id="typing"></span>
     </div>
     <div id="items">
         <a href="http://ibird.yinfxs.com" target="_blank">ibird</a>
         <a href="https://zhuanlan.zhihu.com/yinfxs" target="_blank">blog</a>
         <a href="https://github.com/yinfxs" target="_blank">github</a>
+        <a href="mailto:yinfxs@gmail.com" target="_blank">email</a>
     </div>
 </div>
 
@@ -89,7 +94,7 @@
 <script type="application/javascript" src="http://7xlhoa.com1.z0.glb.clouddn.com/ityped.js"></script>
 <script type="application/javascript">
     ityped.init('#typing', {
-        strings: ['Hello.', 'I am Daniel Yin.', 'Yes, this is my little cat.', 'I am a web developer.', 'What can I do for you?'],
+        strings: ['Hello,', 'I am Daniel Yin.', 'I am a web developer.', 'What can I do for you?'],
         typeSpeed: 105,
         backDelay: 1000,
         loop: true
